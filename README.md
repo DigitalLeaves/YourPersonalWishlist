@@ -7,3 +7,5 @@ Apple example source code [“MapCallouts: Using MapKit Annotations”](https://
 There are some code samples out there talking about customisation, but they either don’t get a full customisation or you end up with a callout whose elements are not interactive, i.e: buttons cannot be pushed, table views cannot be scrolled, etc…
 
 [In this post](http://digitalleaves.com/blog/2016/12/building-the-perfect-ios-map-ii-completely-custom-annotation-views/), I describe a method for making completely custom annotation views that actually work, and are fully interactive (including inner buttons, table views, etc). This repository is the sample code project for that post. Please, visit the page to have an in-depth explanation of what's going on here.
+
+https://github.com/DigitalLeaves/YourPersonalWishlist/blob/master/yourPersonalWishList.mov?raw=true
