@@ -12,6 +12,18 @@
 		661DC62F1DF70A420038E845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661DC62D1DF70A420038E845 /* Main.storyboard */; };
 		661DC6311DF70A430038E845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661DC6301DF70A430038E845 /* Assets.xcassets */; };
 		661DC6341DF70A430038E845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661DC6321DF70A430038E845 /* LaunchScreen.storyboard */; };
+		661DC63C1DF7157D0038E845 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661DC63B1DF7157D0038E845 /* Media.xcassets */; };
+		661DC6421DF717CB0038E845 /* PeopleWishListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DC6411DF717CB0038E845 /* PeopleWishListManager.swift */; };
+		661DC6461DF71A620038E845 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DC6451DF71A620038E845 /* Person.swift */; };
+		661DC6481DF71DA10038E845 /* PersonDetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DC6471DF71DA10038E845 /* PersonDetailMapView.swift */; };
+		661DC64A1DF71DB90038E845 /* PersonDetailMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661DC6491DF71DB80038E845 /* PersonDetailMapView.xib */; };
+		66FD52DA1DF7295F0006432E /* PersonWishListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD52D81DF7295F0006432E /* PersonWishListItemTableViewCell.swift */; };
+		66FD52DB1DF7295F0006432E /* PersonWishListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FD52D91DF7295F0006432E /* PersonWishListItemTableViewCell.xib */; };
+		66FD52DD1DF72B900006432E /* SampleLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 66FD52DC1DF72B900006432E /* SampleLocation.gpx */; };
+		66FD52DF1DF7302E0006432E /* PersonWishListAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD52DE1DF7302E0006432E /* PersonWishListAnnotationView.swift */; };
+		66FD52E11DF730FC0006432E /* PersonWishListAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD52E01DF730FC0006432E /* PersonWishListAnnotation.swift */; };
+		66FD531D1DF9CA810006432E /* UIView+BezierPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD531C1DF9CA810006432E /* UIView+BezierPaths.swift */; };
+		66FD531F1DF9D19B0006432E /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD531E1DF9D19B0006432E /* PersonDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		661DC6301DF70A430038E845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		661DC6331DF70A430038E845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		661DC6351DF70A430038E845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661DC63B1DF7157D0038E845 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		661DC6411DF717CB0038E845 /* PeopleWishListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleWishListManager.swift; sourceTree = "<group>"; };
+		661DC6451DF71A620038E845 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		661DC6471DF71DA10038E845 /* PersonDetailMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailMapView.swift; sourceTree = "<group>"; };
+		661DC6491DF71DB80038E845 /* PersonDetailMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailMapView.xib; sourceTree = "<group>"; };
+		66FD52D81DF7295F0006432E /* PersonWishListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWishListItemTableViewCell.swift; sourceTree = "<group>"; };
+		66FD52D91DF7295F0006432E /* PersonWishListItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonWishListItemTableViewCell.xib; sourceTree = "<group>"; };
+		66FD52DC1DF72B900006432E /* SampleLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SampleLocation.gpx; sourceTree = "<group>"; };
+		66FD52DE1DF7302E0006432E /* PersonWishListAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWishListAnnotationView.swift; sourceTree = "<group>"; };
+		66FD52E01DF730FC0006432E /* PersonWishListAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonWishListAnnotation.swift; sourceTree = "<group>"; };
+		66FD531C1DF9CA810006432E /* UIView+BezierPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+BezierPaths.swift"; sourceTree = "<group>"; };
+		66FD531E1DF9D19B0006432E /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,66 @@
 		661DC6281DF70A420038E845 /* CustomPinsMap */ = {
 			isa = PBXGroup;
 			children = (
-				661DC6291DF70A420038E845 /* AppDelegate.swift */,
-				661DC62B1DF70A420038E845 /* ViewController.swift */,
-				661DC62D1DF70A420038E845 /* Main.storyboard */,
-				661DC6301DF70A430038E845 /* Assets.xcassets */,
-				661DC6321DF70A430038E845 /* LaunchScreen.storyboard */,
-				661DC6351DF70A430038E845 /* Info.plist */,
+				66FD531B1DF9CA6B0006432E /* Categories and Extensions */,
+				661DC6401DF717320038E845 /* Model */,
+				661DC63F1DF716FE0038E845 /* Storyboards */,
+				661DC63E1DF716F10038E845 /* Views & Controllers */,
+				661DC63D1DF715910038E845 /* Resources and Assets */,
 			);
 			path = CustomPinsMap;
+			sourceTree = "<group>";
+		};
+		661DC63D1DF715910038E845 /* Resources and Assets */ = {
+			isa = PBXGroup;
+			children = (
+				661DC6291DF70A420038E845 /* AppDelegate.swift */,
+				661DC6301DF70A430038E845 /* Assets.xcassets */,
+				661DC63B1DF7157D0038E845 /* Media.xcassets */,
+				661DC6351DF70A430038E845 /* Info.plist */,
+				66FD52DC1DF72B900006432E /* SampleLocation.gpx */,
+			);
+			name = "Resources and Assets";
+			sourceTree = "<group>";
+		};
+		661DC63E1DF716F10038E845 /* Views & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				661DC62B1DF70A420038E845 /* ViewController.swift */,
+				66FD531E1DF9D19B0006432E /* PersonDetailsViewController.swift */,
+				661DC6471DF71DA10038E845 /* PersonDetailMapView.swift */,
+				661DC6491DF71DB80038E845 /* PersonDetailMapView.xib */,
+				66FD52D81DF7295F0006432E /* PersonWishListItemTableViewCell.swift */,
+				66FD52D91DF7295F0006432E /* PersonWishListItemTableViewCell.xib */,
+			);
+			name = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		661DC63F1DF716FE0038E845 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				661DC6321DF70A430038E845 /* LaunchScreen.storyboard */,
+				661DC62D1DF70A420038E845 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		661DC6401DF717320038E845 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				661DC6411DF717CB0038E845 /* PeopleWishListManager.swift */,
+				661DC6451DF71A620038E845 /* Person.swift */,
+				66FD52DE1DF7302E0006432E /* PersonWishListAnnotationView.swift */,
+				66FD52E01DF730FC0006432E /* PersonWishListAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		66FD531B1DF9CA6B0006432E /* Categories and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66FD531C1DF9CA810006432E /* UIView+BezierPaths.swift */,
+			);
+			name = "Categories and Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				661DC6341DF70A430038E845 /* LaunchScreen.storyboard in Resources */,
+				661DC64A1DF71DB90038E845 /* PersonDetailMapView.xib in Resources */,
+				66FD52DB1DF7295F0006432E /* PersonWishListItemTableViewCell.xib in Resources */,
 				661DC6311DF70A430038E845 /* Assets.xcassets in Resources */,
+				661DC63C1DF7157D0038E845 /* Media.xcassets in Resources */,
+				66FD52DD1DF72B900006432E /* SampleLocation.gpx in Resources */,
 				661DC62F1DF70A420038E845 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FD531F1DF9D19B0006432E /* PersonDetailsViewController.swift in Sources */,
 				661DC62C1DF70A420038E845 /* ViewController.swift in Sources */,
+				661DC6421DF717CB0038E845 /* PeopleWishListManager.swift in Sources */,
+				66FD531D1DF9CA810006432E /* UIView+BezierPaths.swift in Sources */,
+				66FD52E11DF730FC0006432E /* PersonWishListAnnotation.swift in Sources */,
+				661DC6481DF71DA10038E845 /* PersonDetailMapView.swift in Sources */,
+				66FD52DF1DF7302E0006432E /* PersonWishListAnnotationView.swift in Sources */,
+				661DC6461DF71A620038E845 /* Person.swift in Sources */,
+				66FD52DA1DF7295F0006432E /* PersonWishListItemTableViewCell.swift in Sources */,
 				661DC62A1DF70A420038E845 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +390,7 @@
 				661DC63A1DF70A430038E845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
