@@ -8,4 +8,6 @@ There are some code samples out there talking about customisation, but they eith
 
 [In this post](http://digitalleaves.com/blog/2016/12/building-the-perfect-ios-map-ii-completely-custom-annotation-views/), I describe a method for making completely custom annotation views that actually work, and are fully interactive (including inner buttons, table views, etc). This repository is the sample code project for that post. Please, visit the page to have an in-depth explanation of what's going on here.
 
-https://github.com/DigitalLeaves/YourPersonalWishlist/blob/master/yourPersonalWishList.gif?raw=true
+![Project in action](https://github.com/DigitalLeaves/YourPersonalWishlist/blob/master/yourPersonalWishList.gif?raw=true "Project in action")
+
+
